@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#cont {
+  display: block;
+  position: relative;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.container {
+  position: relative;
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .avatar-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
